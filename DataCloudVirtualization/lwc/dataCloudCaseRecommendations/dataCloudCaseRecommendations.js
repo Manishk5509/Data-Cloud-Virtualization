@@ -84,7 +84,7 @@ export default class DcListvIewSerachbySubject extends LightningElement {
     }
 
     fetchSimilarCases() {
-        if (this.caseSubject && this.caseSubject.length > 3) {
+        if (this.caseSubject && this.caseSubject.length > 7) {
             // The @wire method will automatically handle the call and data binding
         }
     }

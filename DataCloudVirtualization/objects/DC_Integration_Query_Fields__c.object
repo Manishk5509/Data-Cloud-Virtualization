@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+     <description>This Object is used to store Fields to be displayed in a list view and also controls the order of the fields getting displayed</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -165,19 +166,6 @@
         <trackTrending>false</trackTrending>
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <fields>
-        <fullName>Detail_View_Order__c</fullName>
-        <description>It should be used if the field should be displayed in record detail View</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Specify the Order In which the Fields to be displayed in Detail View</inlineHelpText>
-        <label>Detail View Order</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Field_Api_Name__c</fullName>

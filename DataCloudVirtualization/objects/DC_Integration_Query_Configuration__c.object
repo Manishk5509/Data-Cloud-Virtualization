@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+   <description>This Object is used to store the Object Name and Query used to fetch the Datacloud DMO</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -153,57 +154,9 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Active__c</fullName>
-        <defaultValue>true</defaultValue>
-        <externalId>false</externalId>
-        <label>Active</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Display_Order__c</fullName>
-        <externalId>false</externalId>
-        <label>Display Order</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Object_Name__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>This field represents the name shown on the UI.</inlineHelpText>
-        <label>Object Name</label>
-        <length>255</length>
-        <required>true</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>OrgId__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Please use the prefix &apos;Salesforce_&apos; before the Org Id, e.g., Salesforce_00DC3000000Qw0I</inlineHelpText>
-        <label>Org Id</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Parent_Object__c</fullName>
-        <externalId>false</externalId>
-        <label>Parent Object</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
+
+
+  
     <fields>
         <fullName>Query__c</fullName>
         <externalId>false</externalId>
@@ -213,16 +166,7 @@
         <type>LongTextArea</type>
         <visibleLines>10</visibleLines>
     </fields>
-    <fields>
-        <fullName>Relationship__c</fullName>
-        <externalId>false</externalId>
-        <label>Relationship</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
+   
     <label>DC Integration Query Configuration</label>
     <listViews>
         <fullName>All</fullName>
